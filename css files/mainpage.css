@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+:root {
+    --primary:#FDF8F4;
+    --secondary: #D8A7A7;
+    --accent1:#F7D9D9;
+    --accent2:#915E6D;
+    
+}
+body{
+    background-color: var(--primary);
+}
+.logo {
+    border:solid var(--secondary) 10px;
+    width: 100%;
+    height: 100px;
+    color: var(--secondary);
+    font-family: "Cedarville Cursive", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px var(--accent2);
+}
+
+
+.main_heading{
+    border: 0px;
+    width: 100%;
+    text-align: center;
+}
+.main_heading h1 {
+    font-family:"Playfair Display SC", serif ;
+    font-size: 100px;
+    line-height: 50%;
+    text-shadow:2px 2px 10px rgba(0, 0, 0, 0.6);;
+}
+.main_heading p{
+    font-size: 25px;
+    line-height: 50%;
+    font-family: "Cedarville Cursive", cursive;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+nav ul li{
+    border:var(--accent1) solid 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: var(--accent1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: var(--accent2);  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-shadow: 2px 2px 20px var(--accent2);
+    transition: 0.5s;
+}
+
+nav ul li :hover {
+    background-color: var(--accent2);
+    color: var(--accent1);
+    border-radius: 20px;
+    transform: scale(101%);
+    box-shadow: 2px 2px 10px  black;
+}
+
+.bottom_picture{
+    width:100%;
+}
+
+
+/* Fotter */
+footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-top: solid #D8A7A7 10px;
+    margin-top: 100px;
+}
+
+.fotter_nav{
+    list-style-type: none;
+    display: grid;
+    width: 50%;
+    height: 250px;
+}
+
+.fotter_nav li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--accent2);
+    transition: 0.5s;
+}
+.fotter_nav li :hover{
+    background-color: var(--secondary);
+    color: white;
+    transform: scale(101%);
+    box-shadow: 2px 2px 10px  #915E6D;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1.5em;
+}
+fieldset{
+    color: #915E6D;
+    display: grid;
+    width: 50%;
+    border: none;
+}
+fieldset input{
+    width: 300px;
+    height: 25px;
+    background-color: #FDF8F4;
+}
+input{
+    border:2px solid #915E6D
+}
+
+button{
+    margin-top: 20px;
+    width: 300px;
+    height:25px;
+    background-color: #FDF8F4;
+    border-radius: 20px;
+}
+
+footer img{
+    display: grid;
+    width: 300px;
+    padding-top: 6px;
+    padding-right: 50px;
+}
