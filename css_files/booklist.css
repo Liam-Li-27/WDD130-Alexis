@@ -21,7 +21,6 @@ body{
     align-items: center;
     box-sizing: border-box;
     font-size: 30px;
-    text-shadow: 2px 2px 10px var(--accent2);
 }
 
 
@@ -44,18 +43,52 @@ body{
 
 /*main*/
 
-main section{
+.card{
     display: grid;
-    grid-template-columns: 1fr,1fr;
+    grid-template-rows: 50px 1fr;
+    justify-items: center;
+    border: solid 7px var(--accent1);
+    border-radius: 20px;
+    background-color: #F7D9D9;
+    margin-top: 100px;
+    width: 50%;
+    justify-self: center;
+    box-shadow: 2px 2px 20px black;
 }
 
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
 
+/* The card with picture*/
 
+.card_p h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: larger;
+    font-size: 50px;
+}
 
+.card_p img{
+    width: 1000px;
+    display: flex;
+    justify-self: center;
+    border: #FDF8F4 solid;
+    box-shadow: 2px 2px 20px black;
+}
 
+.card_p p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
 
-
-   
 
 /* Fotter */
 footer{
@@ -122,3 +155,4 @@ footer img{
     padding-top: 6px;
     padding-right: 50px;
 }
+

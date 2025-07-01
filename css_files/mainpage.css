@@ -21,7 +21,6 @@ body{
     align-items: center;
     box-sizing: border-box;
     font-size: 30px;
-    text-shadow: 2px 2px 10px var(--accent2);
 }
 
 
@@ -34,7 +33,6 @@ body{
     font-family:"Playfair Display SC", serif ;
     font-size: 100px;
     line-height: 50%;
-    text-shadow:2px 2px 10px rgba(0, 0, 0, 0.6);;
 }
 .main_heading p{
     font-size: 25px;
