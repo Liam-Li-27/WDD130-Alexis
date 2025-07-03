@@ -56,10 +56,21 @@ body{
     box-shadow: 2px 2px 20px black;
 }
 
+.card h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    align-items: center;  
+    width: 100%;
+}
+
+.content ul{
+    list-style-type: none;
+    font-family: "Playfair Display SC", serif;
 }
 
 /* The card with picture*/
