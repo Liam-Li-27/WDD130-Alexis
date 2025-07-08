@@ -9,6 +9,9 @@
 }
 body{
     background-color: var(--primary);
+    transform: scale(0.8); /* 缩小到 80% */
+    transform-origin: top left; /* 缩放基准点 */
+    width: 125%; /* 补偿缩放后的空白（0.8 的倒数是 1.25） */
 }
 .logo {
     border:solid var(--secondary) 10px;
